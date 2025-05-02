@@ -16,18 +16,20 @@ STEP 7: Stop.
 
 ### Program:
 ```
-def simpleInterest(p,t,r):
-      si = p*t*r/100
-       return si
-p = eval(input())
-r = eval(input())
-t = eval(input())
+reg no:212223070023
+name:Saran Krishna P S
+principal = float(input("Enter the principal amount: "))
+rate = float(input("Enter the rate of interest: "))
+time = float(input("Enter the time period (in years): "))
+
+simple_interest = (principal * rate * time) / 100
+
+print(f"The simple interest is: {simple_interest}")
+
+
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/0cc71222-9697-4545-a937-b330407cbc02)
-
-
-
+![image](https://github.com/user-attachments/assets/e037a993-bfc9-4895-bd21-1528197ab431)
 
 
 ### Result: Thus, the given program is implemented and executed successfully .
@@ -53,19 +55,14 @@ STEP 7: Stop.
 
 ### Program:
 ```
-def odd(a):
-         l=[]
-          for i in range(a):
-x = int(input())
-l.append(x)
-for i in range(a):
-           if i%2!=0:
-                print(l[i], end=" ")
- a = int(input())
-odd(a)
+reg no:212223070023
+name:Saran Krishna P S 
+lst = [10, 20, 30, 40, 50, 60, 70]
+print([lst[i] for i in range(1, len(lst), 2)])
+
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/a13fba7c-36b5-4227-98c1-82ab22a7804a)
+![image](https://github.com/user-attachments/assets/4f448634-841c-4ed3-8e7a-4f48658d15e2)
 
 ### Result: Thus, the given program is implemented and executed successfully .
  
@@ -90,18 +87,18 @@ STEP 8: Stop.
 
 
 ### Program:
-```if  name	== '   main    ':
-          n = int(input())
-          arr = map(int, input().split())
-          arr2 = list(set(arr))
-          arr2.sort()
-print(arr2[-2])
+```
+reg no:212223070023
+name:Saran Krishna P S
+scores = list(map(int, input().split()))
+scores.sort()
+runner_up = scores[-2]
+print(runner_up)
+
 
 ### Output:
- 
-![image](https://github.com/user-attachments/assets/032939c0-f500-4bbb-9b19-87b3c54d8454)
+ ![image](https://github.com/user-attachments/assets/4ae98a86-c951-4b7b-b6b7-22dde3330c09)
 
- 
 
 ### Result: Thus, the given program is implemented and executed successfully .
  
@@ -125,19 +122,22 @@ STEP 8 : Stop.
 
 ### Program:
 ```
-cube = lambda x: x**2 if x%2==0 else x**3
-def fun(f,l):
-     l1=[]
-     for i in range(f,l+1):
-           l1.append(i)
-      return l1
-f,l = int(input()),int(input())
+reg no:212223070023
+name:Saran Krishna P S 
+start = int(input("Enter the starting range: "))
+end = int(input("Enter the ending range: "))
+
+lst = [i for i in range(start, end+1)]
+
+result = [x**2 if x % 2 == 0 else x**3 for x in lst]
+
+print(result)
+
+
 
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/4a9076d8-a2cf-44e1-b7d1-e638b7edf12f)
-
-
+![image](https://github.com/user-attachments/assets/ddbd36e3-8f55-4166-8f95-1d1f53d2a86a)
 
 ### Result: Thus, the given program is implemented and executed successfully .
  
