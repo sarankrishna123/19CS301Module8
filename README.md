@@ -147,16 +147,6 @@ EX: 8.e check whether they are valid mobile numbers.
 ### Aim: Write a Python program to check whether the given mobile numbers are valid or not.
 A valid mobile number is a 10-digit number starting with 7, 8, or 9.
 
-### Algorithm:
-Sure! Here’s the **Aim** and **Algorithm** for the mobile number validation problem using regular expressions:
-
----
-
-### Aim:
-
-Write a Python program to check whether the given mobile numbers are valid or not.
-A valid mobile number is a 10-digit number starting with 7, 8, or 9.
-
 ---
 
 ### Algorithm:
